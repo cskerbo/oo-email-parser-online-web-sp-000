@@ -5,7 +5,6 @@
 class EmailAddressParser
 
   attr_accessor :email_addresses
-  @@emails = []
 
   def initialize(string)
     @email_addresses = string
