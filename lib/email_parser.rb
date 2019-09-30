@@ -15,4 +15,5 @@ class EmailAddressParser
     @email_addresses.split(",") each do |email|
     puts email
   end
+  end
 end
