@@ -12,8 +12,7 @@ class EmailAddressParser
   end
 
   def parse
-    emails_dirty = @email_addresses.split(",")
-    emails_clean = emails_dirty.gsub("")
-    emails_clean
+    emails = @email_addresses.split(",")
+    emails
   end
 end
