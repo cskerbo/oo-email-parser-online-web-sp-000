@@ -12,7 +12,7 @@ class EmailAddressParser
   end
 
   def parse
-    @email_addresses.split(",") each do |email|
+    @email_addresses.split(",").each do |email|
     puts email
   end
   end
