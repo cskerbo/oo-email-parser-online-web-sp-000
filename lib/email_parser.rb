@@ -10,3 +10,4 @@ class EmailAddressParser
     @email_addresses = string
     puts @email_addresses
   end
+end
