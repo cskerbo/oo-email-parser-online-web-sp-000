@@ -12,7 +12,8 @@ class EmailAddressParser
   end
 
   def parse
-    emails = @email_addresses.split(/[,]/)
-    emails
+    emails_dirty = @email_addresses.split(/[,]/)
+    emails_clean = emails_dirty.gsub("")
+    emails_clean
   end
 end
