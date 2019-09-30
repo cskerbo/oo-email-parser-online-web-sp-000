@@ -13,6 +13,6 @@ class EmailAddressParser
 
   def parse
     emails = @email_addresses.split(",")
-    emails
+    emails.gsub("")
   end
 end
