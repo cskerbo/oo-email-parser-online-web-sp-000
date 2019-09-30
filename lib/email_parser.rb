@@ -10,4 +10,8 @@ class EmailAddressParser
     @email_addresses = string
     puts @email_addresses
   end
+
+  def parse
+    emails = @email_addresses.split(/[, ]/)
+    emails
 end
